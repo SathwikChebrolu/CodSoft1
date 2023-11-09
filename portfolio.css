@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(249, 241, 232);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+  /* display: inline-table;
+  vertical-align: middle; */
+  margin: 1em;
+  padding: 0.5em 1em;
+  background: 
+    linear-gradient(
+      to right,
+      transparent 20%,
+      rgb(141, 120, 116) 20%,
+      rgb(141, 120, 116) 80%,
+      transparent 80%
+    ) bottom no-repeat,
+    linear-gradient(
+      to top,
+      rgb(141, 120, 116) 0%,
+      rgb(141, 120, 116) 300%
+    ) right 300% no-repeat,
+    linear-gradient(
+      to right,
+      rgb(141, 120, 116) 0%,
+      rgb(141, 120, 116) 100%
+    ) 9000% 0 no-repeat,
+    linear-gradient(
+      to top,
+      rgb(141, 120, 116) 0%,
+      rgb(141, 120, 116) 300%
+    ) left 9000% no-repeat;  
+  transition: background-size 2s ease-in;
+}
+
+section, section ~ section:hover {
+  background-size: 
+    100% 8px, 
+    3px 0, 
+    3px 3px, 
+    3px 0;
+}
+
+section:hover, section ~ section {
+  background-size: 
+    200% 3px, 
+    3px 100%, 
+    100% 3px, 
+    3px 100%;
+  transition: background-size 2s ease-in-out;
+}
+
+span {
+  /* font-size: 4em; */
+  display: inline-block;
+  vertical-align: middle;
+  background: rgb(224, 72, 64);
+  border-radius: 100%;
+  box-shadow: 0 0 5px;
+}
+
+
+h2{
+    color: rgb(81, 159, 232);
+}
+
+.para{
+    background-color:beige;
+}
+
+header .list li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px; /* Adjust the margin to create space between elements */
+}
+
+header .list li a {
+    text-decoration: none;
+    color: rgb(133, 137, 243);
+    font-weight: bolder;
+}
+
+header .list li a:hover {
+    color: red;
+}
+
+header {
+    text-align: left; /* Align the text to the left */
+    padding: 20px;
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    border-radius: 19%;
+}
+
+#about {
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    margin-right: 20px;
+    overflow: hidden; /* Hide overflowing parts */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.about-image img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.about-image:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+}
+
+.about-matter {
+    flex: 1; /* Take remaining space beside the image */
+}
+
+.about-matter p {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+
+#skills {
+    padding: 20px;
+}
+
+#skills ul {
+    padding:10 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#college2 {
+    width: 30%; /* Adjust the width as needed */
+    height: 30%;
+}
+
+#college2:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+}
+
+#college3 {
+    width: 30%; /* Adjust the width as needed */
+    height: 30%;
+}
+
+#college3:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+}
+
+#college1{
+    width:30%;
+    height:20%;
+}
+
+#college1:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+}
+
+#resume {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    padding: 30px;
+}
